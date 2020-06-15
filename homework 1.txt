@@ -1,0 +1,22 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        double grades = 100;
+        if (grades>=90){
+        System.out.println("A");
+        }
+        if (grades>=80 && grades <90){
+        System.out.println("B");
+        }
+        if (grades>=70 && grades <80){
+        System.out.println("C");
+        }
+           if (grades>=60 && grades <70){
+        System.out.println("D");
+        }
+           if (grades>=50 && grades <60){
+        System.out.println("F");
+        }
+     }
+}
