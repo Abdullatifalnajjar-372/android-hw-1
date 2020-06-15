@@ -1,0 +1,23 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        double a = 100;
+        
+        char grades = gradeGenerator ( a );
+        
+        System.out.println( grades );     
+        
+     }
+        public static char gradeGenerator( double a){
+        if (a >= 90)
+        return 'A';
+        else if(a >= 80 && a < 90)
+        return 'B';
+        else if(a >= 70 && a< 80)
+        return 'C';
+        else if(a >= 60 && a < 70)
+        return 'D';
+        else
+        return 'F';
+     }
+}
